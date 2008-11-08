@@ -1,32 +1,38 @@
 = un
 
-* FIX (url)
+* http://rubyforge.org/projects/seattlerb
 
 == DESCRIPTION:
 
-FIX (describe your package)
+un provides unextend and uninclude to allow for a better
+prototype-oriented programming experience.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* unextend removes a module from an instance.
+* uninculde removes a module from a class/module.
+* danger danger!
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  man = Man.new
+  man.extend SuperDuper
+  # ...
+  man.unextend SuperDuper
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* RubyInline
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install un
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIX
+Copyright (c) 2008 Ryan Davis, Seattle.rb
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
