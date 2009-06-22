@@ -2,11 +2,15 @@
 
 require 'rubygems'
 require 'hoe'
-require './lib/un.rb'
 
-Hoe.new('un', Un::VERSION) do |p|
-  p.rubyforge_name = 'seattlerb'
-  p.developer('Ryan Davis', 'ryand-ruby@zenspider.com')
+Hoe.plugin :seattlerb
+Hoe.plugin :inline
+
+Hoe.spec 'un' do
+  developer 'Ryan Davis', 'ryand-ruby@zenspider.com'
+
+  self.rubyforge_name = 'seattlerb'
+  # multiruby_skip << '1.9'
 end
 
-# vim: syntax=Ruby
+# vim: syntax=ruby
