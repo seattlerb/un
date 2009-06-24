@@ -2,7 +2,7 @@ require 'rubygems'
 require 'inline'
 
 class Un
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 end
 
 class Object
