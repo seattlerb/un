@@ -10,7 +10,7 @@ prototype-oriented programming experience.
 == FEATURES/PROBLEMS:
 
 * unextend removes a module from an instance.
-* uninculde removes a module from a class/module.
+* uninclude removes a module from a class/module.
 * danger danger!
 
 == SYNOPSIS:
